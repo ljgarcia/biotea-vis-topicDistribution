@@ -6,7 +6,7 @@
 
 // browserify build config
 var buildDir = "build";
-var outputFile = "AnnotationViewer";
+var outputFile = "TopicDistributionViewer";
 
 // packages
 var gulp   = require('gulp');
@@ -80,7 +80,7 @@ gulp.task('test-unit', ['test-env'], function () {
 gulp.task('test-env', ['init-test-reports'], function() {
     env({
         vars: {
-            XUNIT_FILE: 'reports/TEST-AnnotationViewerTest.xml',
+            XUNIT_FILE: 'reports/TEST-TopicDistributionViewerTest.xml',
             LOG_XUNIT: true
         }
     });
