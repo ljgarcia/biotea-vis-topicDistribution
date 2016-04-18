@@ -32,3 +32,8 @@ div.biotea_tooltip {
     color: black;
     padding: 3px;
 }
+
+.biotea_score_shadow {
+    fill: none;
+    stroke: black;
+}
