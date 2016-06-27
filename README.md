@@ -1,5 +1,5 @@
 # biotea-vis-topicDistribution
-A BioJS component to visualize group-based distributions in [Biolinks project](http://ljgarcia.github.io/biotea-biolinks).
+A BioJS component to visualize Biotea group-based distributions. This component is used in [Biolinks project](http://ljgarcia.github.io/biotea-biolinks).
 
 
 <img src="example.png"/>
