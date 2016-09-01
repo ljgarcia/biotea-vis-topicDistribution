@@ -21,7 +21,7 @@ chai.should();
 var AnnotationViewer = require('../..');
 
 
-describe('biotea-vis-annotation module', function(){
+describe('biotea-vis-topicDistribution module', function(){
     it('should return a hello', function(){
         var instance = new AnnotationViewer({
             db: 'pmc',
